@@ -1,0 +1,8 @@
+package: yrewrite_watson_search
+version: '1.0'
+author: Oliver Hörold
+supportpage: https://github.com/omphteliba/yrewrite_watson_search
+
+requires:
+  php:
+    version: '>=7.1.3'
