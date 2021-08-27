@@ -6,3 +6,6 @@ supportpage: https://github.com/omphteliba/yrewrite_watson_search
 requires:
   php:
     version: '>=7.1.3'
+  packages:
+    yrewrite: '>=2.2.0'
+    watson: '>=2.0'

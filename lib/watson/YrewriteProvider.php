@@ -28,6 +28,7 @@ class YrewriteProvider extends SupportProvider
             return $this->registerStoreSearch();
         }
         return [];
+
     }
 
     /**

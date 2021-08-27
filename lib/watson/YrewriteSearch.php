@@ -53,6 +53,7 @@ class YrewriteSearch extends Workflow
      */
     public function fire(Command $command)
     {
+        dump(1);
         $result = new Result();
 
         $fields = ['url','extern',];
