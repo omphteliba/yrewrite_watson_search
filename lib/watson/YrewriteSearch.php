@@ -69,12 +69,13 @@ class YrewriteSearch extends Workflow
             $counter = 0;
 
             foreach ($items as $item) {
-
+// https://dev.fact-finder.de/redaxo/index.php?page=yrewrite/forward&data_id=1606&func=edit&start=&list=edb9240a
                 $url = Watson::getUrl([
                     'page' => 'yrewrite/forward',
-                    'base_path' => 'yrewrite/forward',
-                    'id' => $item['id'],
+                    'data_id' => $item['id'],
                     'func' => 'edit',
+                    'start' => '',
+                    'list' => 'edb9240a'
                 ]);
 
                 ++$counter;

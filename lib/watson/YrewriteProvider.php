@@ -2,6 +2,7 @@
 
 namespace Watson\Workflows\YrewriteSearch;
 
+
 use Watson\Foundation\SupportProvider;
 use Watson\Foundation\Workflow;
 
