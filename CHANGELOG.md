@@ -15,6 +15,12 @@
 
  ---
 
+##[1.0.1] -
+### 🐛 Bugfixes
+* Fixed link for editing the redirect in Yrewrite
+
+ ---
+
 ##[1.0.0] - 
 ### 🚀 Features
 * First release
